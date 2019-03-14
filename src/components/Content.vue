@@ -99,10 +99,6 @@ export default {
       min-height: 100vh;
     }
 
-    .jumbotron {
-      margin: 0;
-    }
-
     #Home {
       background-image:
         linear-gradient( $lightergray 25%, mix(rgba(0,0,0,0.5), $white) 75% ),
