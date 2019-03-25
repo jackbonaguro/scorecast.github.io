@@ -85,8 +85,4 @@ export default {
   .darkgray {
     color: $darkgray;
   }
-
-  .jumbotron {
-    margin: 0;
-  }
 </style>

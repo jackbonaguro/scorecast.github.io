@@ -36,7 +36,7 @@
           </p>
           <hr class="my-lg-5 w-50">
           <div class="row py-4">
-            <div class="col col-7">
+            <div class="col-sm">
               <p>
                 First, let's look at some of the game's variables. Variables can be an Int or a
                 String, and make up the state of the game.
@@ -46,7 +46,7 @@
                 prior to starting it. THey are called setup variables (more on that later).
               </p>
             </div>
-            <div class="col col-5">
+            <div class="col-sm">
               <pre><code>{
   "variables": [
     {
@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="row py-4">
-            <div class="col">
+            <div class="col-sm">
               <pre><code>{
   "name": "winScore",
   "type": "Int",
@@ -77,7 +77,7 @@
 
 "winCondition": "winScore",</code></pre>
             </div>
-            <div class="col">
+            <div class="col-sm">
               <p>
                 This variable, winScore, is a good example of a composite variable. it depends on
                 variables aScore and bScore (not shown), and makes use of several operations to
@@ -90,14 +90,14 @@
             </div>
           </div>
           <div class="row py-4">
-            <div class="col col-7">
+            <div class="col-sm">
               <p>
                 Here is an example of an action. This action, aPlus, will correspond to a button
                 that the game's operator can tap. When they do so, it will increment aScore by 1,
                 as indicated by the corresponding operation.
               </p>
             </div>
-            <div class="col col-5">
+            <div class="col-sm">
               <pre><code>"actions": [
 {
   "name": "aPlus",
@@ -113,7 +113,7 @@
             </div>
           </div>
           <div class="row py-4">
-            <div class="col">
+            <div class="col-sm">
               <pre><code>"setup": [
   {
     "name": "gameName",
@@ -122,7 +122,7 @@
 
 ...</code></pre>
             </div>
-            <div class="col">
+            <div class="col-sm">
               <p>
                 In the setup section, we can describe which variables can be given default values
                 before starting a game. If the 'lock' field is true, then changing a variable will
