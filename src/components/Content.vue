@@ -32,7 +32,7 @@
       d-flex flex-column justify-content-center align-content-center">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col align-items-lg-center">
               <img src="../assets/img/image10.png" width="260" class="screenshot"/>
             </div>
             <div class="col d-flex flex-column justify-content-center align-content-center">
@@ -109,12 +109,20 @@ export default {
         url("../assets/img/joshua-ness-109310-unsplash.jpg");
       //background-blend-mode: multiply;
       background-size: cover;
+      min-height: 113vh;
+      //padding-bottom: 150px;
     }
     #Why {
       background-image:
         linear-gradient(0.65turn, $black 25%, $darkgray);
+      clip-path: polygon(0 6%,100% 0,100% 100%,0 100%);
+      background-clip: border-box;
+      margin-top: -100px;
     }
     #Video {
+      clip-path: polygon(0 6%,100% 0,100% 100%,0 100%);
+      margin-top: -100px;
+      padding-top: 150px;
       background-color: $lightergray;
     }
 
